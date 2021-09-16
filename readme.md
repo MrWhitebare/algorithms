@@ -103,3 +103,5 @@ class algorithms
 | 插入 | $O(n)$ | $O(1)$ |
 | 删除 | $O(n)$ | $O(1)$ |
 
+![4](http://latex.codecogs.com/svg.latex?\sum_{n=1}^\infty\frac{1}{n^2}=\frac{\pi^2}{6})
+
