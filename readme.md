@@ -44,31 +44,31 @@ class algorithms
 >
 > ![image-20210916143911944](https://cdn.jsdelivr.net/gh/MrWhitebare/algorithms@1.0/IMG/binarySearch.png))
 
-### 2. 大O表示法
+### 2. 大![O](http://latex.codecogs.com/svg.latex?O)表示法
 
-大O表示法是一种特殊的表示法，指出了算法的速度有多快。
+大![O](http://latex.codecogs.com/svg.latex?O)表示法是一种特殊的表示法，指出了算法的速度有多快。
 
 ![大O表示法](https://cdn.jsdelivr.net/gh/MrWhitebare/algorithms@1.0/IMG/compare.png)
 
 随着元素数量的增加，二分查找需要的额外时间并不多，而简单查找需要的额外时间却很多。因此，随着列表的增长，二分查找的速度比简单查找快得多。 Bob以为二分查找速度为简单查找的15倍，这不对：列表包含10亿个元素时，为3300万倍。  
 
-大$O$表示法指出了算法有多快。例如，假设列表包含$n$个元素。简单查找需要检查每个元素，因此需要执行$n$次操作。使用大$O$表示法，这个运行时间为$O(n)$。单位秒呢？没有——大$O$表示法指的并非以秒为单位的速度。 大$O$表示法让你能够比较操作数，它指出了算法运行时间的增速。  
+大![O](http://latex.codecogs.com/svg.latex?O)表示法指出了算法有多快。例如，假设列表包含$n$个元素。简单查找需要检查每个元素，因此需要执行次![n](http://latex.codecogs.com/svg.latex?n)操作。使用大$O$表示法，这个运行时间为![O](http://latex.codecogs.com/svg.latex?O(n))。单位秒呢？没有——大表示法![O](http://latex.codecogs.com/svg.latex?O)指的并非以秒为单位的速度。 大表示法![O](http://latex.codecogs.com/svg.latex?O)让你能够比较操作数，它指出了算法运行时间的增速。  
 
-为检查长度为$n$的列表，二分查找需要执行$log_2 n$次操作。大$O$表示为$O(\log_2 n)$
+为检查长度为$n$的列表，二分查找需要执行![O](http://latex.codecogs.com/svg.latex?\log_2 n)次操作。大![O](http://latex.codecogs.com/svg.latex?O)表示为![O](http://latex.codecogs.com/svg.latex?O(\log_2 n))
 
 #### 2.1 一些常见的大$O$运行时间
 
 下面按从快到慢的顺序列出了你经常会遇到的5种大O运行时间。  
 
-- $O(log_2 n)$ 对数时间，这样的算法包括二分查找；
+- ![O](http://latex.codecogs.com/svg.latex?O(\log_2 n)) 对数时间，这样的算法包括二分查找；
 
-- $O(n)$ 线性时间，这样的算法包括简单查找；
+- ![O](http://latex.codecogs.com/svg.latex?O(n))线性时间，这样的算法包括简单查找；
 
-- $O(n*\log_2 n)$ 这样的算法包括快速排序；
+- ![O](http://latex.codecogs.com/svg.latex?O(n*\log_2 n))这样的算法包括快速排序；
 
-- $O(n^2)$ 这样的算法包括选择排序；
+- ![O](http://latex.codecogs.com/svg.latex?O^2) 这样的算法包括选择排序；
 
-- $O(n!)$  这样的算法包括旅行商问题的解决方案。
+- ![O](http://latex.codecogs.com/svg.latex?O(n!)) 这样的算法包括旅行商问题的解决方案。
 
 ![算法运行时间](https://cdn.jsdelivr.net/gh/MrWhitebare/algorithms@1.0/IMG/time.png)
 
@@ -97,11 +97,11 @@ class algorithms
 
 数组与链表操作的运行时间比较
 
-|      | 数组   | 链表   |
-| :--: | ------ | ------ |
-| 读取 | $O(1)$ | $O(n)$ |
-| 插入 | $O(n)$ | $O(1)$ |
-| 删除 | $O(n)$ | $O(1)$ |
+|      | 数组                                                         | 链表                                           |
+| :--: | ------------------------------------------------------------ | ---------------------------------------------- |
+| 读取 | ![O](http://latex.codecogs.com/svg.latex?O(1))![O](http://latex.codecogs.com/svg.latex?O(n)) |                                                |
+| 插入 | ![O](http://latex.codecogs.com/svg.latex?O(n))               | ![O](http://latex.codecogs.com/svg.latex?O(1)) |
+| 删除 | ![O](http://latex.codecogs.com/svg.latex?O(n))               | **$O(1)$**                                     |
 
 ![4](http://latex.codecogs.com/svg.latex?\sum_{n=1}^\infty\frac{1}{n^2}=\frac{\pi^2}{6})
 
