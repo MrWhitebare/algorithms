@@ -54,17 +54,17 @@ class algorithms
 
 大![O](http://latex.codecogs.com/svg.latex?O)表示法指出了算法有多快。例如，假设列表包含![O](http://latex.codecogs.com/svg.latex?n)个元素。简单查找需要检查每个元素，因此需要执行次![n](http://latex.codecogs.com/svg.latex?n)操作。使用大$O$表示法，这个运行时间为![O](http://latex.codecogs.com/svg.latex?O(n))。单位秒呢？没有——大表示法![O](http://latex.codecogs.com/svg.latex?O)指的并非以秒为单位的速度。 大表示法![O](http://latex.codecogs.com/svg.latex?O)让你能够比较操作数，它指出了算法运行时间的增速。  
 
-为检查长度为$n$的列表，二分查找需要执行![O](http://latex.codecogs.com/svg.latex?\log_2 n)次操作。大![O](http://latex.codecogs.com/svg.latex?O)表示为![O](http://latex.codecogs.com/svg.latex?O(log_2 n))
+为检查长度为$n$的列表，二分查找需要执行![O](http://latex.codecogs.com/svg.latex?log_2n)次操作。大![O](http://latex.codecogs.com/svg.latex?O)表示为![O](http://latex.codecogs.com/svg.latex?O(log_2n))
 
 #### 2.1 一些常见的大![O](http://latex.codecogs.com/svg.latex?O)运行时间
 
 下面按从快到慢的顺序列出了你经常会遇到的5种大O运行时间。  
 
-- ![O](http://latex.codecogs.com/svg.latex?O(log_2 n)) 对数时间，这样的算法包括二分查找；
+- ![O](http://latex.codecogs.com/svg.latex?O(log_2n)) 对数时间，这样的算法包括二分查找；
 
 - ![O](http://latex.codecogs.com/svg.latex?O(n))线性时间，这样的算法包括简单查找；
 
-- ![O](http://latex.codecogs.com/svg.latex?O(n*log_2 n))这样的算法包括快速排序；
+- ![O](http://latex.codecogs.com/svg.latex?O(n*log_2n))这样的算法包括快速排序；
 
 - ![O](http://latex.codecogs.com/svg.latex?O^2) 这样的算法包括选择排序；
 
