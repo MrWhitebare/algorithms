@@ -42,7 +42,7 @@ class algorithms
 > 简单查找逐个地检查数字，如果列表包含100个数字，最多需要猜100次。如果列表包含40亿个数字，最多需要猜40亿次。换言之，最多需要猜测的次数与列表长度相同，这被称为线性
 > 时间（ linear time）。  
 >
-> ![image-20210916143911944](https://cdn.jsdelivr.net/gh/MrWhitebare/algorithms@1.0/IMG/binarySearch.png))
+> ![image-20210916143911944](https://cdn.jsdelivr.net/gh/MrWhitebare/algorithms@1.0/IMG/binarySearch.png)
 
 ### 2. 大![O](http://latex.codecogs.com/svg.latex?O)表示法
 
@@ -52,9 +52,9 @@ class algorithms
 
 随着元素数量的增加，二分查找需要的额外时间并不多，而简单查找需要的额外时间却很多。因此，随着列表的增长，二分查找的速度比简单查找快得多。 Bob以为二分查找速度为简单查找的15倍，这不对：列表包含10亿个元素时，为3300万倍。  
 
-大![O](http://latex.codecogs.com/svg.latex?O)表示法指出了算法有多快。例如，假设列表包含![O](http://latex.codecogs.com/svg.latex?n)个元素。简单查找需要检查每个元素，因此需要执行次![n](http://latex.codecogs.com/svg.latex?n)操作。使用大$O$表示法，这个运行时间为![O](http://latex.codecogs.com/svg.latex?O(n))。单位秒呢？没有——大表示法![O](http://latex.codecogs.com/svg.latex?O)指的并非以秒为单位的速度。 大表示法![O](http://latex.codecogs.com/svg.latex?O)让你能够比较操作数，它指出了算法运行时间的增速。  
+大![O](http://latex.codecogs.com/svg.latex?O)表示法指出了算法有多快。例如，假设列表包含![O](http://latex.codecogs.com/svg.latex?n)个元素。简单查找需要检查每个元素，因此需要执行次![n](http://latex.codecogs.com/svg.latex?n)操作。使用大![O](http://latex.codecogs.com/svg.latex?O)表示法，这个运行时间为![O](http://latex.codecogs.com/svg.latex?O(n))。单位秒呢？没有——大表示法![O](http://latex.codecogs.com/svg.latex?O)指的并非以秒为单位的速度。 大表示法![O](http://latex.codecogs.com/svg.latex?O)让你能够比较操作数，它指出了算法运行时间的增速。  
 
-为检查长度为$n$的列表，二分查找需要执行![O](http://latex.codecogs.com/svg.latex?log_2n)次操作。大![O](http://latex.codecogs.com/svg.latex?O)表示为![O](http://latex.codecogs.com/svg.latex?O(log_2n))
+为检查长度为![O](http://latex.codecogs.com/svg.latex?n)的列表，二分查找需要执行![O](http://latex.codecogs.com/svg.latex?log_2n)次操作。大![O](http://latex.codecogs.com/svg.latex?O)表示为![O](http://latex.codecogs.com/svg.latex?O(log_2n))
 
 #### 2.1 一些常见的大![O](http://latex.codecogs.com/svg.latex?O)运行时间
 
