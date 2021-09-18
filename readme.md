@@ -185,3 +185,28 @@ public static int[] SelectSortArray(int[] iArray)
 ### 4. 递归
 
 **递归**就是套娃。
+
+#### 4.1 基线条件和递归条件
+
+由于递归函数调用自己，因此编写这样的函数时很容易出错，进而导致无限循环。例如，假设你要编写一个像下面这样倒计时的函数。  
+
+编写递归函数时，必须告诉它何时停止递归。正因为如此， 每个递归函数都有两部分：**基线**
+**条件**（ base case）和**递归条件**（ recursive case） 。递归条件指的是函数调用自己，而基线条件则
+指的是函数不再调用自己，从而避免形成无限循环。  
+
+#### 4.2 栈 Stack
+
+栈是一种数据结构，它按照后进先出的原则存储数据，先进入的数据被压入栈底，最后的数据在栈顶，需要读数据的时候从栈顶开始弹出数据。
+
+```C#
+public static void CountDown(int number)
+{
+    if (number <= 0) return;
+    else
+    {
+        Console.WriteLine(number);
+        CountDown(number - 1);
+    }
+}
+```
+
