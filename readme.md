@@ -224,3 +224,9 @@ public static void CountDown(int number)
 
 [汉诺塔问题](https://blog.csdn.net/weixin_43706473/article/details/104853722#:~:text=汉诺塔其实是在1,侣也会同归于尽。)
 
+![hanoi.png (1082×643) (jsdelivr.net)](https://cdn.jsdelivr.net/gh/MrWhitebare/algorithms@1.1.0/IMG/hanoi.png)
+
+![3fac.png (850×254) (jsdelivr.net)](https://cdn.jsdelivr.net/gh/MrWhitebare/algorithms@1.1.0/IMG/3fac.png)
+
+![hanoi.png (1082×643) (jsdelivr.net)](https://cdn.jsdelivr.net/gh/MrWhitebare/algorithms@1.1.0/IMG/law.png)
+
